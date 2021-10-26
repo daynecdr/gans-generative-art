@@ -1,6 +1,6 @@
-# final_project
+# final project
 
-final project for the corecode bootcamp - generative art through neural networks
+final project for the CoreCode bootcamp - generative art through neural networks
 
 The finality of this project was to use a Generative Adversarial Network(GAN) to produce unique works of art. The same basic model was maintained and given different subsets of the data set. There was some hyperparameter tuning to try and test the effect of slight changes to different variables.
 
