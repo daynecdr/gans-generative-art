@@ -1,4 +1,4 @@
-# final project
+# GANS generative art
 
 final project for the CoreCode bootcamp - generative art through neural networks
 
