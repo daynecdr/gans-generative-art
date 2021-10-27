@@ -29,7 +29,7 @@ With around 150,000 images created throughout the training of the different mode
 
 I did manage to choose a set of interesting images and created a dashboard through Streamlit to show some of the AI generated art:
 
--Coming Soon-
+https://gans-art.herokuapp.com/
 
 There will be a Docker image available so you can use if you want to test this model out, I recommend you train using a GPU as CPU is a lot slower. The images fed should have the shape (128,128,3) but the model can be tuned to accept different sizes. 
 
