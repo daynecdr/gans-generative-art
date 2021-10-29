@@ -1,14 +1,18 @@
 # GANS generative art
 
+## [Link to Heroku app](https://gans-art.herokuapp.com/)
+
 final project for the CoreCode bootcamp - generative art through neural networks
 
 The finality of this project was to use a Generative Adversarial Network(GAN) to produce unique works of art. The same basic model was maintained and given different subsets of the data set. There was some hyperparameter tuning to try and test the effect of slight changes to different variables.
 
 The neural network was an adaptation from a model found on Keras.
 
+_________________________________________________________________________________________________________________________________________________________
+
 ### Dataset
 
-The dataset used for this project (https://www.kaggle.com/ikarus777/best-artworks-of-all-time) was an assortment of around 8,000 historical works of art. Using the whole dataset led to Out of Memory problems, so I decided to break it down and organize it by genres. 
+The [dataset](https://www.kaggle.com/ikarus777/best-artworks-of-all-time)  used for this project was an assortment of around 8,000 historical works of art. Using the whole dataset led to Out of Memory problems, so I decided to break it down and organize it by genres. 
 
 Even with this grouping of data, the images were very different from one another and it was difficult for the model to make out clear shapes to emulate. 
 This was somewhat expected.
@@ -16,6 +20,8 @@ This was somewhat expected.
 The images were resized with cv2 and after trying some different combinations, I settled for 128x128 images. A good balance between usability and detail.
 
 There is a jupyter notebook with the functions and processes used to treat the data.
+
+_________________________________________________________________________________________________________________________________________________________
 
 ### First sketches
 
@@ -35,6 +41,5 @@ There will be a Docker image available so you can use if you want to test this m
 
 Notice that if you change image sizes you have to adjust both the generator and discriminator or you will run into errors. 
 
-Check if your graphic card is CUDA compatible:
+[Check if your graphic card is CUDA compatible](https://developer.nvidia.com/cuda-gpus)
 
-https://developer.nvidia.com/cuda-gpus
